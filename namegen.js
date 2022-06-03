@@ -22,7 +22,7 @@ function namegen(count) {
 		name.push(lastComp);
 
 		for(let i = 1; i < nameLength; i++) {
-			if (lastComp.indexOf("endsWithV") >= 0) {
+			if (lastComp.indexOf("EndsWithV") >= 0) {
 				randomComp = compsKeys[Math.floor(Math.random() * compsKeys.length)];
 				lastComp = components[randomComp][Math.floor(Math.random() * components[randomComp].length)];
 				name.push(lastComp);
@@ -54,4 +54,4 @@ function namegen(count) {
 	return names;
 }
 
-console.log(namegen(1));
+console.log(namegen(10));
