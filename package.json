@@ -1,0 +1,30 @@
+{
+  "name": "planet-name-generator",
+  "version": "1.0.1",
+  "description": "A sci-fi planet name generator based off of code from https://github.com/hbi99/namegen",
+  "main": "planet-name-generator.js",
+  "dependencies": {
+    "npm": "^8.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JovianTechnologies/namegen.git"
+  },
+  "keywords": [
+    "planet",
+    "name",
+    "generator",
+    "scifi",
+    "sci-fi"
+  ],
+  "author": "Eric Smallwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JovianTechnologies/namegen/issues"
+  },
+  "homepage": "https://github.com/JovianTechnologies/namegen#readme"
+}

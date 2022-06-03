@@ -1,4 +1,4 @@
-function namegen(count) {
+exports.planetNameGenerator = (count) => {
 	let components = {
 		beginsWithCEndsWithV: ["tania", "hiri","gawa", "carro", "rilia", "stea", "lia", "lea", "ria", "mia", "wei", "ruta","zuno", "lara", "nia", "tera", "gantu", "yama", "tune", "cury", "pra", "thea", "clite"],
 		beginsWithCEndsWithC: ["b", "c", "d", "f", "g", "h", "i", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "dr", "fr", "gr", "pr", "str", "tr", "bl", "cl", "fl", "gl", "pl", "sl", "sc", "sk", "sm", "sn", "sp", "ss", "st", "sw", "ch", "sh", "th", "wh","turn", "ter", "nus", "rus","hines", "nides", "nov", "phus", "nerth", "vis", "liv", "ter", "nus", "bos", "tis"],
@@ -53,5 +53,3 @@ function namegen(count) {
 
 	return names;
 }
-
-console.log(namegen(10));
